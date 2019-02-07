@@ -1,6 +1,8 @@
-a=int(input())
-b=int(input())
-c=int(input())
+n=input()
+x=n.split()
+a=int(x[0])
+b=int(x[1])
+c=int(x[2])
 if(a>c):
     if(a>b):
         print(a)
