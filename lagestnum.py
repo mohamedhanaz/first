@@ -1,0 +1,10 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if(a>c):
+    if(a>b):
+        print(a)
+elif(c<b):
+    print(b)
+else:
+	print(c)
